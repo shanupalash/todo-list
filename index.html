@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+</head>
+<body>
+
+<h2>ToDo List</h2>
+
+
+<form id="addItemForm">
+  <label for="itemName">Item Name:</label><br>
+  <input type="text" id="itemName" name="itemName" required><br>
+  <label for="itemDesc">Description:</label><br>
+  <textarea id="itemDesc" name="itemDesc" required></textarea><br><br>
+  <button type="submit">Add Item</button>
+</form>
+
+<hr>
+
+<h3>Todo remaining</h3>
+<ul id="todoList"></ul>
+
+<hr>
+
+<h3>todo done</h3>
+<ul id="doneList"></ul>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
 
